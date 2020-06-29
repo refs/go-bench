@@ -4,7 +4,7 @@ This write down does not consider readability, only performance.
 
 ### Methodology
 
-Comparisons using [benchcmp - GoDoc](https://godoc.org/golang.org/x/tools/cmd/benchcmp)
+Comparisons using [benchstat - GoDoc](https://godoc.org/golang.org/x/perf/cmd/benchstat)
 
 
 ### Method Sets
