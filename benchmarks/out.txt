@@ -1,0 +1,7 @@
+goos: darwin
+goarch: amd64
+pkg: performance-go
+BenchmarkSayStruct-8      	1000000000	         0.274 ns/op
+BenchmarkSayInterface-8   	584143506	         2.08 ns/op
+PASS
+ok  	performance-go	2.076s
