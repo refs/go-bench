@@ -49,3 +49,4 @@ GOGCCFLAGS="-fPIC -m64 -pthread -fno-caret-diagnostics -Qunused-arguments -fmess
 ## TODO
 
 - `sync.Map` vs  Type + `sync.Mutex`
+  - https://github.com/golang/go/issues/28938
