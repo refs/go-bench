@@ -45,3 +45,7 @@ CGO_LDFLAGS="-g -O2"
 PKG_CONFIG="pkg-config"
 GOGCCFLAGS="-fPIC -m64 -pthread -fno-caret-diagnostics -Qunused-arguments -fmessage-length=0 -fdebug-prefix-map=/var/folders/2k/gtstqhy9733d5yb754k8c30h0000gn/T/go-build975095157=/tmp/go-build -gno-record-gcc-switches -fno-common"
 ```
+
+## TODO
+
+- `sync.Map` vs  Type + `sync.Mutex`
