@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	"performance-go/pointers"
+)
+
 // The following example illustrate the cost of indirection of [interface / struct] method sets.
 
 // Talker defines something that talks.
@@ -23,4 +28,11 @@ func sayStruct(l Lion, message string) {
 	l.Talk(message)
 }
 
-func main() {}
+func main() {
+	a := pointers.P{
+		A: 42,
+	}
+	fmt.Printf("%p\n", &a)
+	pointers.PMem(&a)
+	fmt.Printf("%v\n", a.A) // 21, modified inside pointers.PMem
+}
